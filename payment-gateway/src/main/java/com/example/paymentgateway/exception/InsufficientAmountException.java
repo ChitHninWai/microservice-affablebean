@@ -5,6 +5,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 public class InsufficientAmountException extends ResponseStatusException {
     public InsufficientAmountException(){
+
         super(HttpStatus.BAD_REQUEST,"Insufficient Amount!");
     }
 }

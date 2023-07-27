@@ -3,6 +3,7 @@ package com.example.affablebeanui.entity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +20,7 @@ public class Product {
     private int quantity;
     private List<Integer> quantityList=new ArrayList<>();
 
-    private LocalDateTime lastUpdate;
+    private LocalDate lastUpdate;
 
     private Category category;
 
